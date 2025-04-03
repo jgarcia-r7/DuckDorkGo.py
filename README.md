@@ -46,4 +46,5 @@ Scraping for **300** max results on **usda.gov**:
 ![image](https://github.com/user-attachments/assets/bae2f47c-ff20-4065-95c3-f30b847d2126)
 
 Scraping **example.com** for pdf and docx files with a maximum of 100 results:  
-`python3 DuckDorkGo.py example.com -f pdf docx -m 100`
+`python3 DuckDorkGo.py example.com -f pdf docx -m 100`  
+![image](https://github.com/user-attachments/assets/1c15d5d5-3728-4939-b61c-285a221ed6f5)
