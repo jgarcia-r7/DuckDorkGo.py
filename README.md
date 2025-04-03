@@ -2,7 +2,7 @@
 A DuckDuckGo powered dorking script to scrape files, download them, and extract metadata.
 
 ### Notes
-Was tired of google dorking scripts not working too damn often, so duckduckgo it is.
+Was tired of google dorking scripts not working too damn often, so duckduckgo it is.  
 For reliability (lol), uses selenium with chromium-driver to browse duckduckgo, scroll through the results, etc.  
 Anyways, you run it against a domain, it scrapes for the filetypes specified (common ones set by default), downloads all of em, extracts useful metadata, and makes you a nice simple CSV - yes for report simplicity.  
 Files get downloaded to `downloads/{domain}` and the metadata report is exported to `downloads/{domain}/metadata_report.csv`.
@@ -22,6 +22,7 @@ pip3 install -r requirements.txt
 python3 DuckDorkGo.py [domain.com]
 ```
 ### Usage
+By **DEFAULT**, the script searches for a max of **100** results if you **DO NOT** set the `-m` option.  
 `-h` output:  
 ```bash
 usage: duckdorkgo.py [-h] [-m MAX_RESULTS] [-f FILETYPES [FILETYPES ...]] [--proxy PROXY] domain
