@@ -4,7 +4,8 @@ A DuckDuckGo powered dorking script to scrape files, download them, and extract 
 ### Notes
 Was tired of google dorking scripts not working too damn often, so duckduckgo it is.
 For reliability (lol), uses selenium with chromium-driver to browse duckduckgo, scroll through the results, etc.  
-Anyways, you run it against a domain, it scrapes for the filetypes specified (common ones set by default), downloads all of em, extracts useful metadata, and makes you a nice simple CSV - yes for report simplicity.
+Anyways, you run it against a domain, it scrapes for the filetypes specified (common ones set by default), downloads all of em, extracts useful metadata, and makes you a nice simple CSV - yes for report simplicity.  
+Files get downloaded to `downloads/{domain}` and the metadata report is exported to `downloads/{domain}/metadata_report.csv`.
 
 ### Setup
 Install Chromium/Chromium driver:
