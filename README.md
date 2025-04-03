@@ -26,7 +26,7 @@ python3 DuckDorkGo.py [domain.com]
 ```bash
 usage: duckdorkgo.py [-h] [-m MAX_RESULTS] [-f FILETYPES [FILETYPES ...]] [--proxy PROXY] domain
 
-DuckDuckGo File Dorker (Selenium + Metadata)
+DuckDuckGo File Dorker and Metadata Extractor
 
 positional arguments:
   domain                Target domain (e.g., domain.com)
