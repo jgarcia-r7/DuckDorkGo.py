@@ -1,0 +1,6 @@
+beautifulsoup4
+pandas
+PyPDF2
+python-docx
+olefile
+selenium
