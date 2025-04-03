@@ -197,7 +197,7 @@ def extract_metadata(domain, url_map):
 # mainframestuff
 def main():
     print("\033[1;37mDuckDorkGo.py\033[0m - by \033[1;36mjgarcia-r7\033[0m\n")
-    parser = argparse.ArgumentParser(description="DuckDuckGo File Dorker (Selenium + Metadata)")
+    parser = argparse.ArgumentParser(description="DuckDuckGo File Dorker and Metadata Extractor")
     parser.add_argument("domain", help="Target domain (e.g., domain.com)")
     parser.add_argument("-m", "--max-results", type=int, default=100, help="Max number of file URLs to find")
     parser.add_argument("-f", "--filetypes", nargs="+", default=FILETYPES, help="Filetypes to include")
