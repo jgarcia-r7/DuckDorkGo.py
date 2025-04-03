@@ -41,4 +41,8 @@ options:
 
 ### Example
 Scraping for **300** max results on **usda.gov**:  
+`python3 DuckDorkGo.py usda.dov -m 300`  
 ![image](https://github.com/user-attachments/assets/bae2f47c-ff20-4065-95c3-f30b847d2126)
+
+Scraping **example.com** for pdf and docx files with a maximum of 100 results:  
+`python3 DuckDorkGo.py example.com -f pdf docx -m 100`
